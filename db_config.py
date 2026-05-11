@@ -6,7 +6,7 @@ def get_connection():
         host="trolley.proxy.rlwy.net",
         user="root",
         password="NdybOrqojHEAObBlFJAKdTSvPAJeOumM",
-        database="railway"
+        database="railway",
         port = 29453
     )
 import mysql.connector
