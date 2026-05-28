@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import mysql.connector
 
 def get_connection():
@@ -6,10 +6,9 @@ def get_connection():
         host="trolley.proxy.rlwy.net",
         user="root",
         password="NdybOrqojHEAObBlFJAKdTSvPAJeOumM",
-        database="railway"
+        database="railway",
         port = 29453
     )
-=======
 import mysql.connector
 
 def get_connection():
@@ -19,4 +18,4 @@ def get_connection():
         password="root",
         database="client_query_db"
     )
->>>>>>> 4811b26a3e09bb229017e272c19693076682b618
+
